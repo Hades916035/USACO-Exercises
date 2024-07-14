@@ -12,5 +12,7 @@ public class ArithmeticSeries {
         int rate = a2 - a1;
         int nth = rate * (n-1) + a1;
         System.out.println("The " + n + "th term is " + nth);
+
+        kb.close();
     }
 }

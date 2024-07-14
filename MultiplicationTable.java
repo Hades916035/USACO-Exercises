@@ -5,6 +5,8 @@ public class MultiplicationTable {
         Scanner kb = new Scanner(System.in);
         int num = kb.nextInt();
         int arr[] = table(num);
+
+        kb.close();
     }
 
     public static int[] table(int num) {
