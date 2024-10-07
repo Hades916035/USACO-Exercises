@@ -10,13 +10,17 @@ public class Question5{
                     arr.add(a);
             }
         }
-        int result[]=new int[arr.length];
+        int result[]=new int[arr.size()];
             int i=0;
             for(int a: arr){
                 result[i]=a;
                 i++;
             }
-            System.out.println(result);
+            for(int x : result) {
+                System.out.print(x + " ");
+            }
+    
+            System.out.println();
     }
 }
 
