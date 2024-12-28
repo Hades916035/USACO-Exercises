@@ -24,7 +24,25 @@ public class AdjacencyMatrix {
     }
 
     public int[] getNeighbors(int v) {
-        return matrix[v];
+        String s = "";
+        for(int i=0; i<matrix[v].length; i++) {
+            if(matrix[v][i] == 1) {
+                s += i + " ";
+            }
+        }
+        String[] ans = s.split(" ");
+        int[] result = new int[ans.length];
+        for(int i=0; i<ans.length; i++) {
+            result[i] = Integer.parseInt(ans[i]);
+        }
+
+        return result;
+    }
+
+    public void printNeighbors(int v) {
+        for(int i : getNeighbors(0)) {
+            System.out.print(i);
+        }
     }
 
     public void print() {
