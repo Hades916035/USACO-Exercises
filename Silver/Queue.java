@@ -32,7 +32,6 @@ public class Queue {
 
     public String top() {
         return words[endPoints[1]-1];
-
     }
 
     public void printQueue() {
