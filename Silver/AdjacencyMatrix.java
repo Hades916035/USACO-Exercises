@@ -27,7 +27,7 @@ public class AdjacencyMatrix {
         return matrix[v];
     }
 
-    public void printMatrix() {
+    public void print() {
         for (int[] row : matrix) {
             for (int x : row) {
                 System.out.print(x + " ");
