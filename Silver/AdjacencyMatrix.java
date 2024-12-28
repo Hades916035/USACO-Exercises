@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class AdjacencyMatrix {
     private int[][] matrix;
     private boolean directed;
