@@ -38,7 +38,6 @@ public class Test {
         am.addEdge(4, 3);
         am.addEdge(0, 1);
         am.addEdge(1, 3);
-        am.removeEdge(0, 1);
         // for(int i : am.getNeighbors(0)) {
         //     System.out.print(i);
         // }

@@ -41,7 +41,7 @@ public class AdjacencyMatrix {
 
     public void printNeighbors(int v) {
         for(int i : getNeighbors(0)) {
-            System.out.print(i);
+            System.out.print(i + " ");
         }
     }
 
